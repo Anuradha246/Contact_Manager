@@ -1,0 +1,100 @@
+/* AddContact.css */
+
+.add-contact {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #FFFFFF; /* White background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.add-contact h2 {
+    text-align: center;
+    color: #03045E; /* Dark blue for header */
+    margin-bottom: 20px;
+}
+
+.add-contact div {
+    margin-bottom: 20px;
+}
+
+.add-contact label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #03045E; /* Dark blue for labels */
+    margin-bottom: 8px;
+}
+
+.add-contact input,
+.add-contact select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #BBBBBB; /* Grey border for inputs */
+    border-radius: 8px;
+    outline: none;
+    background-color: #FFFFFF; /* White background for inputs */
+    transition: all 0.3s ease;
+}
+
+.add-contact input:focus,
+.add-contact select:focus {
+    border-color: #CCFFCC; /* Light green border on focus */
+    background-color: #FFFFFF; /* Keep white background on focus */
+}
+
+.add-contact button {
+    width: 100%;
+    padding: 12px;
+    background-color: #03045E; /* Dark blue for button */
+    color: #FFFFFF; /* White text */
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-contact button:hover {
+    background-color: #CCFFCC; /* Light green on hover */
+    color: #03045E; /* Dark blue text on hover */
+}
+
+.add-contact button:active {
+    background-color: #BBBBBB; /* Grey on active */
+    transform: translateY(1px);
+}
+
+.add-contact select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;base64,YOUR_SVG_ARROW"); /* Optional arrow icon for select */
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .add-contact {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .add-contact input,
+    .add-contact select {
+        font-size: 13px;
+    }
+
+    .add-contact button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,69 @@
+/* Home.css */
+
+.home {
+    text-align: center;
+    margin: 50px;
+    color: #03045E; /* Dark blue for text */
+    background: linear-gradient(to bottom, #E9EFEC, #CCFFCC); /* Gradient background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.home h1 {
+    font-size: 36px;
+    color: #03045E; /* Light green for the main heading */
+    margin-bottom: 20px;
+}
+
+.home h2 {
+    font-size: 28px;
+    color: #03045E; /* Dark blue for secondary heading */
+    margin: 30px 0 10px;
+}
+
+.home p {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.home ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.home ul li {
+    background: #FFFFFF; /* White background for list items */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.home ul li:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .home {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .home h1 {
+        font-size: 28px;
+    }
+
+    .home h2 {
+        font-size: 24px;
+    }
+
+    .home p {
+        font-size: 16px;
+    }
+}
